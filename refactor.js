@@ -90,6 +90,7 @@ console.log("The letter is", letter);
 /*
 * answer [C]: letter z is printed out first becuse it is in the global scope
 so Javascript prints it out first, versus the local variable.
+*/
 
 // -----------------------------------------------
 
@@ -111,6 +112,10 @@ var reverseStr = function(str) {
 };
 
 // Put your answer below -------------------------
+
+var reverseStr = function(str){
+  return str.split("").reverse().join("");
+};
 
 
 // -----------------------------------------------
