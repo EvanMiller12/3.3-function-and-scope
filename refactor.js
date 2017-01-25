@@ -52,9 +52,12 @@ setTimeout(sayHi, 2000);
 // Put your answer below -------------------------
 
 var sayHi = function (){
-
-  setTimeout(sayHi, 2000);
+  alert("Hello, World!");
 }
+
+setTimeout(sayHi, 2000);
+
+
 
 // -----------------------------------------------
 
