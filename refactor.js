@@ -87,7 +87,9 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
-
+/*
+* answer [C]: letter z is printed out first becuse it is in the global scope
+so Javascript prints it out first, versus the local variable.
 
 // -----------------------------------------------
 
