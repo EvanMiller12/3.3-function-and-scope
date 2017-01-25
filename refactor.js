@@ -53,7 +53,7 @@ setTimeout(sayHi, 2000);
 
 var sayHi = function (){
   alert("Hello, World!");
-}
+};
 
 setTimeout(sayHi, 2000);
 
@@ -197,7 +197,9 @@ var callTenTimes = function(callback) {
 };
 
 // Put your answer below -------------------------
+ var callNTimes = function(n){
 
+ }
 
 // -----------------------------------------------
 
