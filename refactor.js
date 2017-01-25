@@ -151,6 +151,11 @@ var spanishColor = function(colorName) {
 
 // Put your answer below -------------------------
 
+function(colorName){
+  var spanishColor = {
+  colorName: 'rojo',
+  hexCode: '#ff0000',
+}
 
 // -----------------------------------------------
 
@@ -168,6 +173,9 @@ var foo = "bar";
 
 // Put your answer below -------------------------
 
+var foo;
+
+foo = "bar";
 
 // -----------------------------------------------
 
