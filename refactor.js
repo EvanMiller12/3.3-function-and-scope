@@ -29,8 +29,8 @@ function doSomethingCool() {
 
 // Put your answer below -------------------------
 var doSomethingCool = function() {
-  
-}
+  console.log("something Cool!");
+};
 
 // -----------------------------------------------
 
@@ -51,6 +51,10 @@ setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
 
+var sayHi = function (){
+
+  setTimeout(sayHi, 2000);
+}
 
 // -----------------------------------------------
 
