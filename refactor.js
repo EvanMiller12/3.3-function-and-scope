@@ -303,6 +303,12 @@ var accelerate = function(amount) {
 
 // Put your answer below -------------------------
 
+var speed = 1;
+
+var accelerate = function(amount) {
+  speed += amount;
+};
+console.log (accelerate());
 
 // -----------------------------------------------
 
