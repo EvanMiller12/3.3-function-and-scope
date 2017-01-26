@@ -151,12 +151,19 @@ var spanishColor = function(colorName) {
 
 // Put your answer below -------------------------
 
-function(colorName){
-  var spanishColor = {
-  colorName: 'rojo',
-  hexCode: '#ff0000',
-}
+var spanishColors = function(colorsName) {
 
+colors = colorsName.toLowerCase();
+
+  var colorsObject = {
+    rojo: "#ff0000",
+    blanco: "#ffffff",
+    azul: "#0000ff",
+    verde: "#00ff00",
+    negro: "#000000"
+  }
+  return colorsObject[colors];
+}
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -197,9 +204,6 @@ var callTenTimes = function(callback) {
 };
 
 // Put your answer below -------------------------
- var callNTimes = function(n){
-
- }
 
 // -----------------------------------------------
 
@@ -257,6 +261,13 @@ var addNumbers = function(numberA, numberB) {
 var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
+
+var addNumbers = function() {
+  console.log(numberA + numberB);
+
+  var twoPlusTwo = (addNumbers(2,2));
+
+};
 
 
 // -----------------------------------------------
