@@ -88,7 +88,8 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 /*
-* answer [C]: letter z is printed out first becuse it is in the global scope
+* answer [C]: letter z is printed out first becuse its a variable assignment,
+ so it does not get hoisted to the top, and it is in the global scope
 so Javascript prints it out first, versus the local variable.
 */
 
@@ -303,13 +304,19 @@ var accelerate = function(amount) {
 
 // Put your answer below -------------------------
 
-var speed = 1;
-
+/*
+* the function was setting the speed to NaN because it was trying to add
+ 0 to a amount that wasnt given; therfore, it was returning not a number.
+*/
 var accelerate = function(amount) {
-  speed += amount;
-};
-console.log (accelerate());
 
+  if (isNaN(amount){
+    speed = 1;
+  } else {
+    speed += amount;
+  }
+  return speed;
+};
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
