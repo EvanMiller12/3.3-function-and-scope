@@ -114,6 +114,7 @@ var reverseStr = function(str) {
 // Put your answer below -------------------------
 
 var reverseStr = function(str){
+
   return str.split("").reverse().join("");
 };
 
@@ -163,7 +164,7 @@ colors = colorsName.toLowerCase();
     negro: "#000000"
   }
   return colorsObject[colors];
-}
+};
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -204,6 +205,12 @@ var callTenTimes = function(callback) {
 };
 
 // Put your answer below -------------------------
+
+var callNTimes = function(callback, n) {
+
+  var range = _.range(n);
+  _.each(range, callback);
+};
 
 // -----------------------------------------------
 
@@ -262,12 +269,13 @@ var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
 
-var addNumbers = function() {
-  console.log(numberA + numberB);
+var addNumbers = function(numberA, numberB) {
+  return(numberA + numberB);
+};
 
   var twoPlusTwo = (addNumbers(2,2));
 
-};
+
 
 
 // -----------------------------------------------
