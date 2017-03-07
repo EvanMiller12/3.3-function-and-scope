@@ -88,9 +88,8 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 /*
-* answer [C]: letter z is printed out first becuse its a variable assignment,
- so it does not get hoisted to the top, and it is in the global scope
-so Javascript prints it out first, versus the local variable.
+* answer [C]: letter z is printed out first becuse the setTimeout function puts
+a delay on letter = "y" that is inside that function.
 */
 
 // -----------------------------------------------
@@ -310,7 +309,7 @@ var accelerate = function(amount) {
 */
 var accelerate = function(amount) {
 
-  if (isNaN(amount){
+  if (isNaN(amount)){
     speed = 1;
   } else {
     speed += amount;
